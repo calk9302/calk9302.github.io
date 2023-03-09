@@ -28,15 +28,15 @@ h1, h2, h3, h4, h5
 }
 a:link 
 {
-    color: red;
+    color: white;
 }
 a:visited 
 {
-    color: green;
+    color: var(--UNC-Gold);
 }
 a:hover
 {
-    color:(blue);
+    color:var(--UNC-Blue);
 }
 body
 {
