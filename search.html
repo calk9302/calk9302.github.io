@@ -7,10 +7,28 @@
   </head>
   <body>
     <h1>Search Page</h1>
-    <form action="https://google.com" method="GET">
-      <label for="docword"> Words:</label> 
-      <input type="text" name="doc" id="docword">
-      <input type="submit" value="GO">
+
+    <form action="https://google.com/search" method="GET" target="_blank">
+      <fieldset>
+        <label for="searchbox">Search String:</label> 
+        <input type="text" name="q" id="searchbox">
+        <br>
+        <label for="site">Select a Site:</label>
+        <select id="searchoption" name="as_citesearch">
+          <option value="">--All Websites--</option>
+          <option value="unco.edu"> University of Northern Colorado</option>
+          <option value="instructure.com">Canvas</option>
+          <option value="w3schools.com">W3Schools</option>
+          <option value="spec.whatw.org">HTML Living Standard</option>
+          <option value="youtube.com">Youtube</option>
+        </select>
+        <br>
+        <input type="checkbox" name="newwindow value="1" id="checkwindow">
+        <label for="checkwindow">Open Links in New Window?</label>
+      </fieldset>
+      <input type="submit" value="SEARCH">
     </form>
+
+    <p><a href="index.html"><img src="https://th.bing.com/th?id=OIP.CB0IdFkMjlptkWtnkzOBGAHaH3&w=242&h=257&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="Home button" width="70" height="70"></a></p>
   </body>
 </html>
