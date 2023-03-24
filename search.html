@@ -23,8 +23,19 @@
           <option value="youtube.com">Youtube</option>
         </select>
         <br>
-        <input type="checkbox" name="newwindow value="1" id="checkwindow">
+        <label for="as_filetype">Select for Image Search:</label>
+        <select name="as_filetype" multiple="multiple">
+          <option value=""></option>
+          <option value="jpg">Compressed</option>
+          <option value="png">Uncompressed</option>
+          <option value="gif">Animations</option>
+      </select>
+        <br>
+        <input type="checkbox" name="newwindow" value="1" id="checkwindow">
         <label for="checkwindow">Open Links in New Window?</label>
+        <br>
+        <input type="checkbox" name="as_filetype" value="extension">
+        <label for="as_filetype">Show Pages with pdfs, docs, ppt, etc...</label>
       </fieldset>
       <input type="submit" value="SEARCH">
     </form>
