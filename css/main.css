@@ -50,3 +50,12 @@ img
   padding: 12px;
   border-radius: 25%;
 }
+#searchbox
+{
+  width: 300px;
+}
+input, select, option
+{
+  color:var(--UNC-Blue);
+  background-color: var(--UNC-Gold);
+}
