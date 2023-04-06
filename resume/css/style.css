@@ -53,3 +53,8 @@ input, select, option
   color:gray;
   background-color: gray;
 }
+table
+{
+  border: 2pt;
+  background-color: lightblue
+}
