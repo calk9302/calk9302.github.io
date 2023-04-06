@@ -10,7 +10,7 @@
 }
 *
 {
-    font-family: UNCText;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 h1, h2, h3, h4, h5
@@ -34,7 +34,7 @@ a:hover
 }
 body
 {
-  background-color: var(--UNC-Gray);
+  background-color: var(gray);
 }
 img
 {
