@@ -55,6 +55,7 @@ input, select, option
 }
 table
 {
-  border: 2pt;
+  border: 2px solid;
+  border-collapse: collapse;
   background-color: lightblue
 }
