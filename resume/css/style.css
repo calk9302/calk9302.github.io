@@ -11,7 +11,7 @@
 *
 {
     font-family: 'Times New Roman', Times, serif;
-    color: white;
+    color: black;
 }
 h1, h2, h3, h4, h5
 {
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5
 }
 a:link 
 {
-    color: white;
+    color: black;
 }
 a:visited 
 {
@@ -50,6 +50,6 @@ img
 }
 input, select, option
 {
-  color:var(--UNC-Blue);
-  background-color: var(--UNC-Gold);
+  color:var(gray);
+  background-color: var(gray);
 }
