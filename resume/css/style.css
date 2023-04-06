@@ -53,7 +53,7 @@ input, select, option
   color:gray;
   background-color: gray;
 }
-table
+table, th, td
 {
   border: 2px solid;
   border-color:black;
