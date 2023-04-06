@@ -34,14 +34,14 @@ a:hover
 }
 body
 {
-  background-color: gray;
+  background-color: lightgray;
 }
 img
 {
   float: left;
   border: 2px solid white;
-  margin: 12px;
-  padding: 12px;
+  margin: 8px;
+  padding: 8px;
   border-radius: 25%;
 }
 #searchbox
