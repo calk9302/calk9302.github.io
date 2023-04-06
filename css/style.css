@@ -1,0 +1,55 @@
+@font-face 
+{
+  font-family: 'Times New Roman', Times, serif;
+  src: url('fonts/Aleo.ttf');
+}
+@font-face 
+{
+  font-family: UNCText;
+  src: url('fonts/OpenSans.ttf');
+}
+*
+{
+    font-family: UNCText;
+    color: white;
+}
+h1, h2, h3, h4, h5
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(black);
+    clear: both;
+    font-size: 35px;
+}
+a:link 
+{
+    color: white;
+}
+a:visited 
+{
+    color: var(blue);
+}
+a:hover
+{
+    color:var(green);
+}
+body
+{
+  background-color: var(--UNC-Gray);
+}
+img
+{
+  float: left;
+  border: 2px solid white;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 25%;
+}
+#searchbox
+{
+  width: 300px;
+}
+input, select, option
+{
+  color:var(--UNC-Blue);
+  background-color: var(--UNC-Gold);
+}
