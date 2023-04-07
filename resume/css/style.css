@@ -13,12 +13,19 @@
     font-family: 'Times New Roman', Times, serif;
     color: black;
 }
-h1, h2, h3, h4, h5
+h1, h2, h3
 {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     clear: both;
     font-size: 35px;
+}
+h4
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    clear: both;
+    font-size: 20px;
 }
 a:link 
 {
