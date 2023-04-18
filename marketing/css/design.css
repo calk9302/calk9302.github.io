@@ -66,6 +66,7 @@ img
 {
     font-weight: bold;
     text-align: center;
+    background-color: white;
 }
 input, select, option
 {
