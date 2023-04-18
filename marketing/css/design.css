@@ -51,9 +51,9 @@ img
   padding: 8px;
   border-radius: 25%;
 }
-#searchbox
+#menu 
 {
-  width: 300px;
+    font-weight: bold;
 }
 input, select, option
 {
