@@ -78,10 +78,3 @@ input, select, option
     margin-right: auto;
     border: none;
 }
-table, th, td
-{
-  border: 2px solid;
-  border-color:black;
-  border-collapse: collapse;
-  background-color: lightblue;
-}
