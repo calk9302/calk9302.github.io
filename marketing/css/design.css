@@ -54,6 +54,7 @@ img
 #menu 
 {
     font-weight: bold;
+    text-align: center;
 }
 input, select, option
 {
