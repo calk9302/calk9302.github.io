@@ -80,4 +80,5 @@ input, select, option
     border: none;
     width: 650px;
     border-spacing: 0 15px;
+    text-align: center;
 }
