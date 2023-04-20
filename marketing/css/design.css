@@ -73,6 +73,13 @@ input, select, option
   color:gray;
   background-color: gray;
 }
+table, th, td
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
 #hydrobenefits
 {
     margin-left: auto;
