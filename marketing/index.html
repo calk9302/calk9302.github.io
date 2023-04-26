@@ -51,6 +51,7 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
+  <script>
   let slideIndex = 0;
 showSlides();
 
@@ -65,4 +66,5 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+</script>
 </body>
