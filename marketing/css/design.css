@@ -93,10 +93,7 @@ table, th, td
     font-size: 20pt;
 }
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    height: 200px;
 }
 * {box-sizing:border-box}
 
