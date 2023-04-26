@@ -80,6 +80,7 @@ table, th, td
   margin-right: auto;
   border: none;
   border-spacing: 25px;
+  width: auto;
 }
 #hydrobenefits
 {
