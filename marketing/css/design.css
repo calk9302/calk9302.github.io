@@ -90,6 +90,7 @@ table, th, td
     width: 650px;
     border-spacing: 0 15px;
     text-align: center;
+    font-size: 30pt;
 }
 
 * {box-sizing:border-box}
